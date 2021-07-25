@@ -1,6 +1,6 @@
-#a!/bin/bash
+#!/bin/bash
 
-resul=$(./same.sh 1 1 )
+result=$(./same.sh 1 1 )
 
 if [ $result = "same" ] ; then
       echo "OK"
