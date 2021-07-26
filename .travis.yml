@@ -1,3 +1,5 @@
-language: bash
+language: bash # bashで
 script:
-  -  bash same-test.sh 
+- echo hello
+- echo Travis CI test in .travis.yml
+- ./same-test.sh 
